@@ -58,7 +58,7 @@ They are based on the excellent [npm-check-updates](https://github.com/raineorsh
 
 > 6.1 VSCode
 
-The bridge demo have full setting for vscode workspace (`dimjs-toolkits.code-workspace`) that the `eslint.workingDirectories` setting is set: just open it.
+The bridge demo have full setting for vscode workspace (`agile-monorepo-template.code-workspace`) that the `eslint.workingDirectories` setting is set: just open it.
 
 More info [here](https://github.com/microsoft/vscode-eslint#mono-repository-setup)
 

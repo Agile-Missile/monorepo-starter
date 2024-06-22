@@ -4,7 +4,7 @@
 module.exports = {
   apps: [
     {
-      name: 'flatjs-docs',
+      name: 'agile-docs',
       script: 'npm run start',
       watch: false,
       env: {},

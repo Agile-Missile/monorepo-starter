@@ -1,6 +1,6 @@
 # docs
 
-Website for `dimjs`
+Website for `agile`
 
 You can run it locally like this:
 

@@ -3,15 +3,6 @@
   "reject": [
     "react",
     "react-dom",
-    "@dimjs/bridge",
-    "@dimjs/gateway",
-    "@dimjs/lang",
-    "@dimjs/logger",
-    "@dimjs/request",
-    "@dimjs/request-fabric",
-    "@dimjs/secure",
-    "@dimjs/tasktimer",
-    "@dimjs/utils",
     "immer"
   ]
 }

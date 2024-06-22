@@ -1,12 +1,7 @@
 {
-  "index": {
-    "title": "Introduction",
-    "type": "page",
-    "display": "hidden",
-    "theme": { "layout": "raw" }
-  },
-  "preference": {
-    "title": "preference",
-    "type": "page"
-  }
+  "index": "Introduction",
+  "get-started": "Get Started",
+  "features": "Features",
+  "themes": "Themes",
+  "advanced": "Advanced"
 }

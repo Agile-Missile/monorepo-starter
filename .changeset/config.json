@@ -2,9 +2,14 @@
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
   "changelog": [
     "@changesets/changelog-git",
-    { "repo": "flatjs-next/tool-kits" }
+    {
+      "repo": "@agile/monorepo-template"
+    }
   ],
-  "privatePackages": { "version": true, "tag": true },
+  "privatePackages": {
+    "version": true,
+    "tag": true
+  },
   "commit": false,
   "fixed": [],
   "linked": [],

@@ -33,8 +33,6 @@
   },
   "devDependencies": {
     "@armit/eslint-config-bases": "^0.1.4",
-    "@flatjs/cli": "2.1.0-next.11",
-    "@flatjs/nextra": "2.1.0-next.1",
     "@types/animejs": "^3",
     "@types/node": "20.11.30",
     "@types/react": "^18.2.70",

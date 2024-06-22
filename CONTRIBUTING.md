@@ -94,7 +94,3 @@ BREAKING CHANGE: A DB migration will be required in order to add the new "foo" f
 #### Linting
 
 Commit messages are linted on commit, so you'll know if your message is not quite right.
-
-## Setting up the dev environment
-
-After cloning the artmit repo, please follow the [Development guide](https://gitlab.itcjf.com/flatjs-next/bridge/blob/master/README.md#development) in the README for instructions on how to get up and running locally.
