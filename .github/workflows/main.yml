@@ -26,4 +26,4 @@ jobs:
       - name: yarn install
         run: yarn install
       - name: Unit tests
-        run: yarn test-unit
+        run: yarn g:test-unit
