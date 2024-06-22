@@ -1,4 +1,4 @@
-# agile-monorepo-template
+# monorepo-template
 
 A template project of type monorepo
 
