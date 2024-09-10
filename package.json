@@ -22,8 +22,10 @@
     "g:build": "yarn g:build-release",
     "?build-release": "When https://github.com/atlassian/changesets/issues/432 has a solution we can remove this trick",
     "g:build-release": "yarn workspaces foreach --all run build-release",
-    "g:test-unit": "yarn workspaces foreach --all run test-unit",
-    "g:test-e2e": "yarn workspaces foreach --all run test-e2e",
+    "g:test": "yarn workspaces foreach -At run test",
+    "g:test-unit": "yarn workspaces foreach -At run test-unit",
+    "g:test-e2e": "yarn workspaces foreach -At run test-e2e",
+    "g:test-coverage": "yarn workspaces foreach -At run test-coverage",
     "g:lint": "yarn workspaces foreach --all run lint --color",
     "g:typecheck": "yarn workspaces foreach --all run typecheck",
     "g:lint-staged-files": "lint-staged --allow-empty",
@@ -66,7 +68,7 @@
     "typescript": "5.4.5"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=18.0.0",
     "npm": "please-use-yarn",
     "yarn": ">=1.22.0"
   },

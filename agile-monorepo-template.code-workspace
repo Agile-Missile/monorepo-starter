@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "root",
+      "path": ".",
+    },
+    {
       "name": "docs",
       "path": "docs",
     },
@@ -11,10 +15,6 @@
     {
       "name": "library02",
       "path": "packages/library02",
-    },
-    {
-      "name": "root",
-      "path": ".",
     },
   ],
   "extensions": {

@@ -33,7 +33,6 @@
     "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@agile/library02": "workspace:*",
     "@armit/config-loader": "^0.2.2",
     "@armit/file-utility": "^0.2.2",
     "@armit/package": "^0.2.2",
