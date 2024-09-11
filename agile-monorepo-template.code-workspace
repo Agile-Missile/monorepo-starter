@@ -24,7 +24,7 @@
   },
   "settings": {
     "editor.formatOnSave": true,
-    "eslint.experimental.useFlatConfig": true,
+    "eslint.useFlatConfig": true,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
