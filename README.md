@@ -58,7 +58,7 @@ They are based on the excellent [npm-check-updates](https://github.com/raineorsh
 
 > 6.1 VSCode
 
-The bridge demo have full setting for vscode workspace (`agile-monorepo-template.code-workspace`) that the `eslint.workingDirectories` setting is set: just open it.
+The bridge demo have full setting for vscode workspace (`monorepo-starter.code-workspace`) that the `eslint.workingDirectories` setting is set: just open it.
 
 More info [here](https://github.com/microsoft/vscode-eslint#mono-repository-setup)
 
@@ -79,9 +79,9 @@ More info [here](https://github.com/microsoft/vscode-eslint#mono-repository-setu
   CommonJS modules can always be imported via the default export, for example using:
 
 ```ts
-import fastglob from "fast-glob";
-import _ from "lodash";
-import ts from "typescript";
+import fastglob from 'fast-glob';
+import _ from 'lodash';
+import ts from 'typescript';
 ```
 
 https://simonplend.com/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean/
