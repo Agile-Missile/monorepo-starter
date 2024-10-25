@@ -15,7 +15,8 @@
     "editor.formatOnSave": false
   },
   "[jsonc]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[json]": {
     "editor.formatOnSave": false
