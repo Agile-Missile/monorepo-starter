@@ -14,7 +14,7 @@ __metadata:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     "@tailwindcss/typography": "npm:^0.5.15"
     "@types/animejs": "npm:^3"
-    "@types/node": "npm:22.7.9"
+    "@types/node": "npm:22.8.1"
     "@types/react": "npm:^18.3.12"
     animejs: "npm:3.2.2"
     autoprefixer: "npm:^10.4.20"
@@ -24,8 +24,8 @@ __metadata:
     next: "npm:^15.0.1"
     next-auth: "npm:4.24.10"
     next-sitemap: "npm:^4.2.3"
-    nextra: "npm:3.1.0"
-    nextra-theme-docs: "npm:3.1.0"
+    nextra: "npm:3.1.1"
+    nextra-theme-docs: "npm:3.1.1"
     postcss: "npm:^8.4.47"
     prettier: "npm:3.3.3"
     react: "npm:^18.3.1"
@@ -42,7 +42,7 @@ __metadata:
   resolution: "@agile/library01@workspace:packages/library01"
   dependencies:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
-    "@types/node": "npm:22.7.9"
+    "@types/node": "npm:22.8.1"
     "@vitest/coverage-istanbul": "npm:2.1.3"
     "@vitest/ui": "npm:2.1.3"
     eslint: "npm:^9.13.0"
@@ -59,7 +59,7 @@ __metadata:
   resolution: "@agile/library02@workspace:packages/library02"
   dependencies:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
-    "@types/node": "npm:22.7.9"
+    "@types/node": "npm:22.8.1"
     "@vitest/coverage-istanbul": "npm:2.1.3"
     "@vitest/ui": "npm:2.1.3"
     eslint: "npm:^9.13.0"
@@ -2435,12 +2435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.7.9":
-  version: 22.7.9
-  resolution: "@types/node@npm:22.7.9"
+"@types/node@npm:*, @types/node@npm:22.8.1":
+  version: 22.8.1
+  resolution: "@types/node@npm:22.8.1"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10/c68650a1ca3c65cc02e16166fa7daca9958ecea54bd52b0af31009011c44a33f8d559bf467c681b1f06935a10cafb932cc30e5454ecfc89351d361ab669bdba6
+    undici-types: "npm:~6.19.8"
+  checksum: 10/ae969e3d956dead1422c35d568ea5d48dd124a38a1a337cbd120fec6e13cc92b45c7308f91f1139fcd2337a67d4704d5614d6a2c444b1fb268f85e9f1d24c713
   languageName: node
   linkType: hard
 
@@ -8542,9 +8542,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-from-markdown@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "mdast-util-from-markdown@npm:2.0.1"
+"mdast-util-from-markdown@npm:^2.0.0, mdast-util-from-markdown@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "mdast-util-from-markdown@npm:2.0.2"
   dependencies:
     "@types/mdast": "npm:^4.0.0"
     "@types/unist": "npm:^3.0.0"
@@ -8558,7 +8558,7 @@ __metadata:
     micromark-util-symbol: "npm:^2.0.0"
     micromark-util-types: "npm:^2.0.0"
     unist-util-stringify-position: "npm:^4.0.0"
-  checksum: 10/4172759cdd8cf9990701796c5617c8b6a4bd3f9863e730bb4e9689189daec80af3122e77eed2ab09090f1a2d396c4f5754416a41769d7c49efd165a1c0a033c8
+  checksum: 10/69b207913fbcc0469f8c59d922af4d5509b79e809d77c9bd4781543a907fe2ecc8e6433ce0707066a27b117b13f38af3aae4f2d085e18ebd2d3ad5f1a5647902
   languageName: node
   linkType: hard
 
@@ -8740,7 +8740,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-hast@npm:^13.0.0":
+"mdast-util-to-hast@npm:^13.0.0, mdast-util-to-hast@npm:^13.2.0":
   version: 13.2.0
   resolution: "mdast-util-to-hast@npm:13.2.0"
   dependencies:
@@ -9725,9 +9725,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextra-theme-docs@npm:3.1.0":
-  version: 3.1.0
-  resolution: "nextra-theme-docs@npm:3.1.0"
+"nextra-theme-docs@npm:3.1.1":
+  version: 3.1.1
+  resolution: "nextra-theme-docs@npm:3.1.1"
   dependencies:
     "@headlessui/react": "npm:^2.1.2"
     clsx: "npm:^2.0.0"
@@ -9738,16 +9738,16 @@ __metadata:
     zod: "npm:^3.22.3"
   peerDependencies:
     next: ">=13"
-    nextra: 3.1.0
+    nextra: 3.1.1
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10/0d89d7f6e42e2899a1d3c851c4f82724bdbc84fcf1f2c4ca1a94e41e8306f7a2feb068fe1955089a82e6e5572d92036e2588bb63aa9fd6bf0f2485f05e050983
+  checksum: 10/b3a5c18f26bedf0760c051da74b67a816a8616dff63946ae23198f05465eff5dac86cc1340335e77bfd1bcaa7d4594ad349941488aa975dee52b601478e301b7
   languageName: node
   linkType: hard
 
-"nextra@npm:3.1.0":
-  version: 3.1.0
-  resolution: "nextra@npm:3.1.0"
+"nextra@npm:3.1.1":
+  version: 3.1.1
+  resolution: "nextra@npm:3.1.1"
   dependencies:
     "@formatjs/intl-localematcher": "npm:^0.5.4"
     "@headlessui/react": "npm:^2.1.2"
@@ -9766,6 +9766,9 @@ __metadata:
     gray-matter: "npm:^4.0.3"
     hast-util-to-estree: "npm:^3.1.0"
     katex: "npm:^0.16.9"
+    mdast-util-from-markdown: "npm:^2.0.1"
+    mdast-util-gfm: "npm:^3.0.0"
+    mdast-util-to-hast: "npm:^13.2.0"
     negotiator: "npm:^1.0.0"
     p-limit: "npm:^6.0.0"
     rehype-katex: "npm:^7.0.0"
@@ -9788,7 +9791,7 @@ __metadata:
     next: ">=13"
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10/fb0a894e06cfdbc723bdc0bf10f8a5068975a56fbf0fbc987fcf5f9c404f030b91d71b985199fddd6389250d47570844a05b6add27278e647fde06e17eb0b71e
+  checksum: 10/211ade7c64060bb2324c7387b857f2794a4e1135e54f7a12ef9cf9445d36438a51eee672779d5f6c394fb41e1e250a5726b4eee4937d89ca69cdad0cb662214c
   languageName: node
   linkType: hard
 
@@ -12840,7 +12843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
+"undici-types@npm:~6.19.8":
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10/cf0b48ed4fc99baf56584afa91aaffa5010c268b8842f62e02f752df209e3dea138b372a60a963b3b2576ed932f32329ce7ddb9cb5f27a6c83040d8cd74b7a70
