@@ -29,7 +29,13 @@ export default async function RootLayout({ children }) {
     <Navbar
       logo={
         <div className='flex flex-row items-center gap-2'>
-          <img src="/favicon/logo.png" alt="Agile Missile" className="size-8 rounded-sm" />
+          <svg
+            className="size-8 text-blue-400"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+          </svg>
           <span className='text-2xl font-bold'>Agile</span>
         </div>
       }
@@ -44,7 +50,7 @@ export default async function RootLayout({ children }) {
       <Head faviconGlyph="✦" />
       <body>
         <Layout
-          banner={<Banner storageKey="Agile">Agile Missile</Banner>}
+          banner={<Banner storageKey="Agile">Agile Missile is coming soon!</Banner>}
           navbar={navbar}
           footer={<Footer>MIT {new Date().getFullYear()} © Agile Missile.</Footer>}
           editLink="Edit this page on GitHub"
