@@ -24,8 +24,8 @@
     "next": "^15.1.6",
     "next-auth": "4.24.11",
     "next-sitemap": "^4.2.3",
-    "nextra": "4.2.4",
-    "nextra-theme-docs": "4.2.4",
+    "nextra": "4.2.7",
+    "nextra-theme-docs": "4.2.7",
     "postcss": "^8.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@armit/eslint-config-bases": "^0.1.6",
+    "@tailwindcss/postcss": "^4.0.0-beta.8",
     "@types/animejs": "^3",
     "@types/node": "22.13.1",
     "@types/react": "^19.0.8",
