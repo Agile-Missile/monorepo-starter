@@ -17,13 +17,13 @@ export default function IndexPage() {
       </div>
 
       {/* Content */}
-      <div className="relative flex flex-col items-center justify-center min-h-screen px-4 py-16">
+      <div className="relative flex min-h-screen flex-col items-center justify-center px-4 py-16">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="mb-12 text-center">
           <div className="mb-8">
-            <div className="inline-block p-2 bg-gray-800 rounded-lg mb-6">
+            <div className="mb-6 inline-block rounded-lg bg-gray-800 p-2">
               <svg
-                className="w-12 h-12 text-blue-400"
+                className="h-12 w-12 text-blue-400"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -31,20 +31,20 @@ export default function IndexPage() {
               </svg>
             </div>
           </div>
-          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+          <h1 className="mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-5xl font-bold text-transparent">
             Documentation
           </h1>
-          <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-400">
             Welcome to our documentation. Find everything you need to get
             started.
           </p>
           <Link
             href="/docs"
-            className="bg-blue-500 text-white px-8 py-4 rounded-lg hover:bg-blue-600 transition-colors inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
+            className="inline-flex items-center space-x-2 rounded-lg bg-blue-500 bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-4 text-white transition-colors hover:bg-blue-600 hover:from-blue-600 hover:to-purple-600"
           >
             <span>Get Started</span>
             <svg
-              className="w-4 h-4"
+              className="h-4 w-4"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ export default function IndexPage() {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+        <div className="grid w-full max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
               title: 'Quick Start',
@@ -97,9 +97,9 @@ export default function IndexPage() {
             <Link
               key={i}
               href={feature.link}
-              className="block p-6 border border-gray-800 rounded-lg hover:shadow-lg transition-all hover:border-gray-700 bg-gray-900/50 backdrop-blur-sm"
+              className="block rounded-lg border border-gray-800 bg-gray-900/50 p-6 backdrop-blur-sm transition-all hover:border-gray-700 hover:shadow-lg"
             >
-              <h2 className="text-xl font-semibold mb-2 text-gray-100">
+              <h2 className="mb-2 text-xl font-semibold text-gray-100">
                 {feature.title}
               </h2>
               <p className="text-gray-400">{feature.description}</p>
